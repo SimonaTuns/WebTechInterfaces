@@ -1,0 +1,45 @@
+body {
+    background-color: rgb(230, 196, 173);
+    color: white;
+  }
+input[type=number] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid rgb(216, 154, 118);
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+  }
+  
+  input[type=number]:focus {
+    border: 3px solid rgb(124, 29, 0);
+  }
+
+  input[type=submit] {
+    background-color: #4d1200;
+    color: white;
+    padding: 15px 23px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: left;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #8a5046;
+  }
+
+  #form-container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    background-color: rgb(221, 135, 37);
+    padding: 20px;
+    border-radius: 20px;
+}

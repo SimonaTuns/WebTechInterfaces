@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="string.css">
+    <title>String Generation</title>
+</head>
+
+<body>
+    <div id='form-container'>
+        <form method="GET" action="https://www.random.org/strings/">
+            <table>
+                <tr>
+                    <td>
+                        Amount to generate
+                    </td>
+                    <td>
+                        <input type="number" name="num" value="14">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Length of string
+                    </td>
+                    <td>
+                        <input type="number" name="len" value="9">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Digits allowed
+                    </td>
+                    <td>
+                        <input type="radio" name="digits" value="on" checked>on<br>
+                        <input type="radio" name="digits" value="off">off<br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Allow uppercase
+                    </td>
+                    <td>
+                        <input type="radio" name="upperalpha" value="on" checked>on<br>
+                        <input type="radio" name="upperalpha" value="off">off<br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Allow lowercase
+                    </td>
+                    <td>
+                        <input type="radio" name="loweralpha" value="on" checked>on<br>
+                        <input type="radio" name="loweralpha" value="off">off<br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Unique strings
+                    </td>
+                    <td>
+                        <input type="radio" name="unique" value="on" checked>on<br>
+                        <input type="radio" name="unique" value="off">off<br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Format
+                    </td>
+                    <td>
+                        <input type="radio" name="format" value="plain" checked>plain<br>
+                        <input type="radio" name="format" value="html">html<br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Randomization
+                    </td>
+                    <td>
+                        <input type="radio" name="rnd" value="new" checked>new<br>
+                        <input type="radio" name="rnd" value="id.identifier">id.identifier<br>
+                        <input type="radio" name="rnd" value="date.iso-date">date.iso-date<br>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <input type="submit" name="sequence_request" value="Send Request">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a class='link-decoration' href=" http://validator.w3.org/check?uri=referer">Validator Link</a>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+
+</html>
